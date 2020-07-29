@@ -1,0 +1,27 @@
+{
+    "name": "EasyCopy",
+    "namespace": "UtahCCTS\\EasyCopy",
+    "description": "This module copies data from one project to another based on configured source & destination. Please note that calculated fields may not copy correctly.",
+    "authors": [
+        {
+            "name": "Tyler M. Ford",
+            "email": "tyler.ford@utah.edu",
+            "institution": "University of Utah/CCTS/BMIC"
+        }
+    ],
+    "permissions": [
+        "redcap_save_record"
+    ],
+    "links": {
+        "project": [
+            {
+                "name": "EasyCopy",
+                "icon": "tick",
+                "url": "execute.php",
+                "show-header-and-footer": true
+            }
+        ]
+    },
+    "project-settings": []
+
+}
